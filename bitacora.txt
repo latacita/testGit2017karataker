@@ -1,12 +1,20 @@
 %%==================================================================%%
 %%                 Métodos de Desarrollo - Test de Git              %%
 %%==================================================================%%
-%% Alumno (Apellidos, Nombre):                                      %%
+%% Alumno (Apellidos, Nombre):Luis Oslé Garcia, 72085904V           %%
 %%==================================================================%%
 
- Paso   Acción                       Notas
+Paso   Acción                       Notas
 ====== ============================ ================================
+(03)       checkout -b Historia000
+(04)       checkout -b Historia001
+(05)       checkout Historia000
 (07)       add bicatora.txt
 (08)       commit "Paso 08"
 (09)       checkout Historia001
+(11)       stash + checkout Historia000
 (16)       stash apply
+(20)       merge + opendiff         El mergeo se para porque hay conflico de lineas.
+				    Utilizo la herramienta opendiff para arreglarlo y prosiga.
+				    El mergeo es recursivo.
+
